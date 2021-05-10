@@ -1,0 +1,66 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "evento telmi",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "OpenEvent",
+          "slots": [],
+          "samples": [
+            "da la bienvenida",
+            "presenta el evento",
+            "da pie al evento",
+            "inicia el evento",
+            "inaugura el evento",
+            "saluda"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "Rest",
+          "slots": [],
+          "samples": [
+            "hagamos una pausa",
+            "danos un descanso"
+          ]
+        },
+        {
+          "name": "CloseEvent",
+          "slots": [],
+          "samples": [
+            "que nos vamos",
+            "nos vamos",
+            "cierra el evento",
+            "quieres añadir algo más",
+            "el evento ha llegado a su fin",
+            "podemos cerrar el evento",
+            "puedes cerrar el evento",
+            "puedes terminar el evento",
+            "el evento ha terminado",
+            "hemos finalizado el evento",
+            "hemos finalizado",
+            "Podemos acabar",
+            "hemos terminado"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "7"
+}
